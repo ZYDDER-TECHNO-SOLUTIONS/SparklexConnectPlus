@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: auth-service
-        image: sparklex-auth-service:latest
-        imagePullPolicy: Never
+        image: sparklex/sparklex-auth:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
         env:

@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: resume-service
-        image: sparklex-resume-service:latest
-        imagePullPolicy: Never
+        image: sparklex/sparklex-resume:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
         env:

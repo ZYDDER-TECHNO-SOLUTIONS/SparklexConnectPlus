@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: notification-service
-        image: sparklex-notification-service:latest
-        imagePullPolicy: Never
+        image: sparklex/sparklex-notification:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
         env:
